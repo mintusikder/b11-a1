@@ -5,6 +5,13 @@
   padding: 0;
   font-family: "Fira Sans", serif;
 }
+/* nav section */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+}
 /* banner section */
 .hero-container {
   margin: 0 auto;
@@ -64,6 +71,18 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+.pillar-title {
+    margin: 0 132px;
+    margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.pillar-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 132px;
+  margin-bottom: 24px;
 }
 .pillar-box {
   width: 410px;
@@ -145,6 +164,17 @@
   color: white;
   border-radius: 8px;
   background: rgb(110, 79, 6);
+}
+/* chief-container */
+.chief-img{
+    position: absolute;
+}
+.chief-container{
+    margin: 0 132px;
+    background-color: aliceblue;
+    padding: 32px;
+    border-radius: 12px;
+    margin-bottom: 96px;
 }
 /* news section */
 .news-container {
