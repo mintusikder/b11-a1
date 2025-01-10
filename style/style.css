@@ -193,7 +193,69 @@
   font-weight: 400;
   margin-bottom: 14px;
 }
+/* donate section */
+.donate-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 24px;
+}
+.donate-subtaile {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  margin-top: 30px;
+}
+.box {
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 100px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+.box:hover {
+    font-weight: 700;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);;
+}
+.input-cantainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 940px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 /* footer */
 .footer {
   text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
 }
