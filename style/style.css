@@ -230,7 +230,7 @@
   background: rgb(255, 255, 255);
 }
 .box:hover {
-    font-weight: 700;
+  font-weight: 700;
   width: 190px;
   display: flex;
   justify-content: center;
@@ -240,18 +240,40 @@
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 16px;
-  background: rgb(198, 228, 214);;
+  background: rgb(198, 228, 214);
 }
-.input-cantainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.input-cantainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.input{
-    width: 940px;
-    height: 35px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+.input {
+  width: 940px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+/* subscribe section */
+.subscribe-container {
+  margin: 0 132px;
+  margin-top: 84px;
+  border-radius: 24px;
+  padding: 42px;
+  background: rgb(198, 228, 214);
+}
+.subscribe-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subscribe-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }
 /* footer */
 .footer {
